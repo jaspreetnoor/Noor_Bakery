@@ -12,6 +12,6 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
-app.listen(PORT, () => {
-    console.log(`Noor Bakers is running on http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Noor Bakers is running on port ${PORT}`);
 });
