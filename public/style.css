@@ -47,6 +47,19 @@ nav {
     font-size: 20px;
 }
 
+.hero-image {
+    display: block;
+    width: 320px;
+    max-width: 90%;
+    height: auto;
+
+    margin: 35px auto 0;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
 button {
     margin-top: 20px;
     padding: 14px 28px;
